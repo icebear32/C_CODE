@@ -1,13 +1,11 @@
-#define _CRT_SECURE_NO_WARNINGS 1
-
 #include <stdio.h>
-//¥˙¬Î1
+//‰ª£Á†Å1
 int main()
 {
     int age = 0;
-    scanf_s("%d", &age);
+    scanf("%d", &age);
     if (age < 18)
     {
-        printf("Œ¥≥…ƒÍ\n");
+        printf("Êú™ÊàêÂπ¥\n");
     }
 }

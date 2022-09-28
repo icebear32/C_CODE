@@ -1,4 +1,4 @@
-//do..whileÑ­»·µÄbreak
+//do..whileå¾ªç¯çš„break
 #include <stdio.h>
 
 int main()
@@ -8,7 +8,7 @@ int main()
 	{
 		if (i == 5)
 			break;
-		printf("%d ", i);//´òÓ¡0 1 2 3 4
+		printf("%d ", i);//æ‰“å°0 1 2 3 4
 		i++;
 	} while (i <= 10);
 

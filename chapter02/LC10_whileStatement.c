@@ -1,16 +1,16 @@
-/*while����е�continue
+/*while语句中的continue
 * 
-* �ܽ�: 
-*	continue��whileѭ���е����þ��ǣ�
-*		continue��������ֹ����ѭ���ģ�Ҳ���Ǳ���ѭ����continue��ߵĴ��벻����ִ�У�
-*		����ֱ����ת��while�����жϲ��֡�
-*		������һ��ѭ��������жϡ�
+* 总结: 
+*	continue在while循环中的作用就是：
+*		continue是用于终止本次循环的，也就是本次循环中continue后边的代码不会再执行，
+*		而是直接跳转到while语句的判断部分。
+*		进行下一次循环的入口判断。
 */
 
 
 
 
-////continue��ѭ����
+////continue死循环了
 //#include <stdio.h>
 //
 //int main()
@@ -26,7 +26,7 @@
 //	return 0;
 //}
 
-//����
+//改正
 #include <stdio.h>
 
 int main()
@@ -35,7 +35,7 @@ int main()
 	while (i < 10)
 	{
 		i = i + 1;
-		if (i == 5)//�ж�Ϊ5�����������ô�ѭ��
+		if (i == 5)//判断为5成立，跳出该次循环
 			continue;
 		printf("%d ", i);
 	}

@@ -1,12 +1,12 @@
-//whileѭ��
+//while循环
 
-//	if (����)
-//		���;
-//	//while �﷨�ṹ
-//	while (����ʽ)
-//		ѭ����䣻
+//	if (条件)
+//		语句;
+//	//while 语法结构
+//	while (表达式)
+//		循环语句；
 
-//����Ļ�ϴ�ӡ1-10������
+//在屏幕上打印1-10的数字
 #include <stdio.h>
 
 int main()

@@ -1,32 +1,32 @@
-//ÐÞ¸Ä´úÂë--È·ÈÏÃÜÂë
+//ä¿®æ”¹ä»£ç --ç¡®è®¤å¯†ç 
 #include <stdio.h>
 
 int main()
 {
 	int ret = 0, ch = 0;
 	char password[20] = { 0 };
-	printf("ÇëÊäÈëÃÜÂë£º>");
-	scanf("%s", password);//ÊäÈëÃÜÂë,²¢´æ·ÅÔÚpassswordÊý×éÖÐ
+	printf("è¯·è¾“å…¥å¯†ç ï¼š>");
+	scanf("%s", password);//è¾“å…¥å¯†ç ,å¹¶å­˜æ”¾åœ¨passswordæ•°ç»„ä¸­
 
-	//ÐÞ¸Ä
-	//»º³åÇø»¹ÓÐÒ»¸ö¡°\n¡±£¬¿ÉÒÔÔÙÓÃgetchar()¶ÁÈ¡Ò»ÏÂ¡°\n¡±
-	//µ«ÊÇÈôÊäÈëµÄÊ±ºòÓÐ¿Õ¸ñ£¬¿Õ¸ñÒ²ÊÇ»áÍ£Ö¹ÊäÈëÊý×é
-	//¿Õ¸ñºóÃæÈôºÜ¶à×Ö·û£¬¿ÉÒÔÉèÖÃÒ»¸öwhileÑ­»·¶ÁÈ¡×Ö·ûµô
+	//ä¿®æ”¹
+	//ç¼“å†²åŒºè¿˜æœ‰ä¸€ä¸ªâ€œ\nâ€ï¼Œå¯ä»¥å†ç”¨getchar()è¯»å–ä¸€ä¸‹â€œ\nâ€
+	//ä½†æ˜¯è‹¥è¾“å…¥çš„æ—¶å€™æœ‰ç©ºæ ¼ï¼Œç©ºæ ¼ä¹Ÿæ˜¯ä¼šåœæ­¢è¾“å…¥æ•°ç»„
+	//ç©ºæ ¼åŽé¢è‹¥å¾ˆå¤šå­—ç¬¦ï¼Œå¯ä»¥è®¾ç½®ä¸€ä¸ªwhileå¾ªçŽ¯è¯»å–å­—ç¬¦æŽ‰
 	while ((ch = getchar()) != '\n')
 	{
-		;//¿ÕÓï¾ä£¬ÒòÎª´Ë´¦²»ÐèÒªÓÐ²Ù×÷
+		;//ç©ºè¯­å¥ï¼Œå› ä¸ºæ­¤å¤„ä¸éœ€è¦æœ‰æ“ä½œ
 	}
 
 
-	printf("ÇëÈ·ÈÏ(Y/N):>");
-	ret = getchar();//ÊäÈëÒ»¸öY/N×Ö·û
-	if (ret == 'Y')//ÅÐ¶ÏÊÇ·ñÊäÈëµÄÊÂ¡°Y¡±
+	printf("è¯·ç¡®è®¤(Y/N):>");
+	ret = getchar();//è¾“å…¥ä¸€ä¸ªY/Nå­—ç¬¦
+	if (ret == 'Y')//åˆ¤æ–­æ˜¯å¦è¾“å…¥çš„äº‹â€œYâ€
 	{
-		printf("È·ÈÏ³É¹¦\n");//Èç¹ûÊäÈë¡°Y¡±×Ö·ûÔòÊä³öÈ·ÈÏ³É¹¦
+		printf("ç¡®è®¤æˆåŠŸ\n");//å¦‚æžœè¾“å…¥â€œYâ€å­—ç¬¦åˆ™è¾“å‡ºç¡®è®¤æˆåŠŸ
 	}
 	else
 	{
-		printf("·ÅÆúÈ·ÈÏ\n");//·ñÔòÊä³öÈ·ÈÏ³É¹¦
+		printf("æ”¾å¼ƒç¡®è®¤\n");//å¦åˆ™è¾“å‡ºç¡®è®¤æˆåŠŸ
 	}
 
 	return 0;

@@ -1,7 +1,7 @@
-////do..whileÑ­»·µÄcontinue
+////do..whileå¾ªç¯çš„continue
 //#include <stdio.h>
 //
-////ËÀÑ­»·
+////æ­»å¾ªç¯
 //int main()
 //{
 //	int i = 0;

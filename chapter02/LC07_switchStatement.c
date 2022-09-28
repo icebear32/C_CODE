@@ -1,22 +1,22 @@
-//Á·Ï°
+//ç»ƒä¹ 
 #include <stdio.h>
 
 int main()
 {
-    int n = 1,m = 2;//¿ªÊ¼£ºn =1,m =2
-    switch (n)//ÒòÎª n=1 ËùÒÔÖ´ĞĞcase 1
+    int n = 1,m = 2;//å¼€å§‹ï¼šn =1,m =2
+    switch (n)//å› ä¸º n=1 æ‰€ä»¥æ‰§è¡Œcase 1
     {
     case 1:
         m++;
     case 2:
         n++;
     /*
-        ÒòÎªcase 1Ã»ÓĞ¼Óbreak£¬Ö´ĞĞÍêcase 1¼ÌĞøÖ´ĞĞcase 2
-        ËùÒÔm++ ==> 3 n++ ==>2
+        å› ä¸ºcase 1æ²¡æœ‰åŠ breakï¼Œæ‰§è¡Œå®Œcase 1ç»§ç»­æ‰§è¡Œcase 2
+        æ‰€ä»¥m++ ==> 3 n++ ==>2
     */
-    case 3://ÒòÎªcase 2Ò²Ã»ÓĞ¼Óbreak£¬¼ÌĞøÖ´ĞĞ
+    case 3://å› ä¸ºcase 2ä¹Ÿæ²¡æœ‰åŠ breakï¼Œç»§ç»­æ‰§è¡Œ
         switch (n)
-        {//switchÔÊĞíÇ¶Ì×Ê¹ÓÃ
+        {//switchå…è®¸åµŒå¥—ä½¿ç”¨
         case 1:
             n++;
         case 2:
@@ -25,17 +25,17 @@ int main()
             break;
         }
         /*
-            ¼ÌĞøÖ´ĞĞswitchÓï¾ä
-            ÒòÎªn = 2,ËùÒÔÖ´ĞĞcase 2Óï¾äÏîm++ ==> 4 n++==>3
-            breakÍË³ö
-            ÓÖÒòÎªcase 3Ã»ÓĞ¼Óbreak£¬¼ÌĞøÖ´ĞĞcase 4
+            ç»§ç»­æ‰§è¡Œswitchè¯­å¥
+            å› ä¸ºn = 2,æ‰€ä»¥æ‰§è¡Œcase 2è¯­å¥é¡¹m++ ==> 4 n++==>3
+            breaké€€å‡º
+            åˆå› ä¸ºcase 3æ²¡æœ‰åŠ breakï¼Œç»§ç»­æ‰§è¡Œcase 4
         */
-    case 4://Ö´ĞĞcase 4m++==> 5 Óöµ½ break ÍË³ö
+    case 4://æ‰§è¡Œcase 4m++==> 5 é‡åˆ° break é€€å‡º
         m++;
         break;
     default:
         break;
     }
-    printf("m = %d, n = %d\n", m, n);//´òÓ¡m= 5, n = 3
+    printf("m = %d, n = %d\n", m, n);//æ‰“å°m= 5, n = 3
     return 0;
 }

@@ -1,4 +1,4 @@
-//代码3
+//浠ｇ爜3
 #include <stdio.h>
 int main()
 {
@@ -6,23 +6,23 @@ int main()
     scanf("%d", &age);
     if (age < 18)
     {
-        printf("少年\n");
+        printf("灏戝勾\n");
     }
     else if (age >= 18 && age < 30)
     {
-        printf("青年\n");
+        printf("闈掑勾\n");
     }
     else if (age >= 30 && age < 50)
     {
-        printf("中年\n");
+        printf("涓勾\n");
     }
     else if (age >= 50 && age < 80)
     {
-        printf("老年\n");
+        printf("鑰佸勾\n");
     }
     else
     {
-        printf("老年人\n");
+        printf("鑰佸勾浜篭n");
     }
 
 }

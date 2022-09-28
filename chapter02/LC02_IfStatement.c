@@ -1,4 +1,4 @@
-//代码2
+//浠ｇ爜2
 #include <stdio.h>
 int main()
 {
@@ -6,10 +6,10 @@ int main()
     scanf("%d", &age);
     if (age < 18)
     {
-        printf("未成年\n");
+        printf("鏈垚骞碶n");
     }
     else
     {
-        printf("成年\n");
+        printf("鎴愬勾\n");
     }
 }
