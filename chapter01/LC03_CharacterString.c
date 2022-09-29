@@ -1,21 +1,21 @@
-//×Ö·û´®
+//å­—ç¬¦ä¸²
 //
 //"hello Character String\n"
-//ÕâÖÖÓÉË«ÒýºÅ(Double Quote )ÒýÆðÀ´µÄÒ»´®×Ö·û³ÆÎª×Ö·û´®×ÖÃæÖµ(String Literal )£¬»òÕß¼ò³Æ×Ö·û´®¡£
+//è¿™ç§ç”±åŒå¼•å·(Double Quote )å¼•èµ·æ¥çš„ä¸€ä¸²å­—ç¬¦ç§°ä¸ºå­—ç¬¦ä¸²å­—é¢å€¼(String Literal )ï¼Œæˆ–è€…ç®€ç§°å­—ç¬¦ä¸²ã€‚
 //
-//×¢©U×Ö·û´®µÄ½áÊø±êÖ¾ÊÇÒ»¸ö\0µÄ×ªÒå×Ö·û¡£ÔÚ¼ÆËã×Ö·û´®³¤¶ÈµÄÊ±ºò\0ÊÇ½áÊø±êÖ¾£¬²»Ëã×÷×Ö·û´®ÄÚÈÝ¡£
+//æ³¨ï¸°å­—ç¬¦ä¸²çš„ç»“æŸæ ‡å¿—æ˜¯ä¸€ä¸ª\0çš„è½¬ä¹‰å­—ç¬¦ã€‚åœ¨è®¡ç®—å­—ç¬¦ä¸²é•¿åº¦çš„æ—¶å€™\0æ˜¯ç»“æŸæ ‡å¿—ï¼Œä¸ç®—ä½œå­—ç¬¦ä¸²å†…å®¹ã€‚
 
 #include <stdio.h>
 
-//ÏÂÃæ´úÂë£¬´òÓ¡½á¹ûÊÇÊ²Ã´£¿ÎªÊ²Ã´£¿£¨Í»³ö'\0'µÄÖØÒªÐÔ£©
+//ä¸‹é¢ä»£ç ï¼Œæ‰“å°ç»“æžœæ˜¯ä»€ä¹ˆï¼Ÿä¸ºä»€ä¹ˆï¼Ÿï¼ˆçªå‡º'\0'çš„é‡è¦æ€§ï¼‰
 int main()
 {
     char arr1[] = "bit";
     char arr2[] = {'b', 'i', 't'};
-    char arr3[] = {'b', 'i', 't', '\0'};//×¢©U×Ö·û´®µÄ½áÊø±êÖ¾ÊÇÒ»¸ö\0µÄ×ªÒå×Ö·û¡£
-                                        //ÔÚ¼ÆËã×Ö·û´®³¤¶ÈµÄÊ±ºò\0ÊÇ½áÊø±êÖ¾£¬²»Ëã×÷×Ö·û´®ÄÚÈÝ¡£
+    char arr3[] = {'b', 'i', 't', '\0'};//æ³¨ï¸°å­—ç¬¦ä¸²çš„ç»“æŸæ ‡å¿—æ˜¯ä¸€ä¸ª\0çš„è½¬ä¹‰å­—ç¬¦ã€‚
+                                        //åœ¨è®¡ç®—å­—ç¬¦ä¸²é•¿åº¦çš„æ—¶å€™\0æ˜¯ç»“æŸæ ‡å¿—ï¼Œä¸ç®—ä½œå­—ç¬¦ä¸²å†…å®¹ã€‚
     printf("%s\n", arr1);//bit
-    printf("%s\n", arr2);//ÓÐÂÒÂë - ÒòÎªÃ»ÓÐÉèÖÃµ½¡°\0¡±½áÊø·û
+    printf("%s\n", arr2);//æœ‰ä¹±ç  - å› ä¸ºæ²¡æœ‰è®¾ç½®åˆ°â€œ\0â€ç»“æŸç¬¦
     printf("%s\n", arr3);//bit
 
     return 0;

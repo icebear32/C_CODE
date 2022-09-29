@@ -1,31 +1,31 @@
-//    ³£Á¿
-//        CÓïÑÔÖÐµÄ³£Á¿ºÍ±äÁ¿µÄ¶¨ÒåµÄÐÎÊ½ÓÐËù²îÒì¡£CÓïÑÔÖÐµÄ³£Á¿·ÖÎªÒÔÏÂÒÔÏÂ¼¸ÖÖ©U
-//        ¡¤×ÖÃæ³£Á¿
-//        constÐÞÊÎµÄ³£±äÁ¿
-//        #define¶¨ÒåµÄ±êÊ¶·û³£Á¿
-//        ¡¤Ã¶¾Ù³£Á¿
+//    å¸¸é‡
+//        Cè¯­è¨€ä¸­çš„å¸¸é‡å’Œå˜é‡çš„å®šä¹‰çš„å½¢å¼æœ‰æ‰€å·®å¼‚ã€‚Cè¯­è¨€ä¸­çš„å¸¸é‡åˆ†ä¸ºä»¥ä¸‹ä»¥ä¸‹å‡ ç§ï¸°
+//        Â·å­—é¢å¸¸é‡
+//        constä¿®é¥°çš„å¸¸å˜é‡
+//        #defineå®šä¹‰çš„æ ‡è¯†ç¬¦å¸¸é‡
+//        Â·æžšä¸¾å¸¸é‡
 
 #include <stdio.h>
-//¾ÙÀý
+//ä¸¾ä¾‹
 enum Sex
 {
  MALE,
  FEMALE,
  SECRET
 };
-//À¨ºÅÖÐµÄMALE,FEMALE,SECRETÊÇÃ¶¾Ù³£Á¿
+//æ‹¬å·ä¸­çš„MALE,FEMALE,SECRETæ˜¯æžšä¸¾å¸¸é‡
 int main()
 {
-    3.14;//×ÖÃæ³£Á¿
-    1000;//×ÖÃæ³£Á¿
-    const float pai = 3.14f;   //const ÐÞÊÎµÄ³£Á¿
+    3.14;//å­—é¢å¸¸é‡
+    1000;//å­—é¢å¸¸é‡
+    const float pai = 3.14f;   //const ä¿®é¥°çš„å¸¸é‡
 
     //pi = 5.14;//ok?
-    // ÔËÐÐ´íÎó £º ÔÚÉùÃ÷³£Á¿µÄÍ¬Ê±¸ø±äÁ¿¸³Öµ£¬²»ÒªÖØÐÂ¸³Öµ±äÁ¿
+    // è¿è¡Œé”™è¯¯ ï¼š åœ¨å£°æ˜Žå¸¸é‡çš„åŒæ—¶ç»™å˜é‡èµ‹å€¼ï¼Œä¸è¦é‡æ–°èµ‹å€¼å˜é‡
 
     printf("pai = %f\n",pai);
 
-    #define MAX 100            //#defineµÄ±êÊ¶·û³£Á¿
+    #define MAX 100            //#defineçš„æ ‡è¯†ç¬¦å¸¸é‡
 
     return 0;
 }
