@@ -1,4 +1,4 @@
-//±äÁ¿µÄÊ¹ÓÃ
+//å˜é‡çš„ä½¿ç”¨
  
  
 #include <stdio.h>
@@ -9,14 +9,14 @@ int main()
     int num2 = 0;
     int sum = 0;
 
-    printf("ÊäÈëÁ½¸ö²Ù×÷Êı:>\n");
-    scanf_s("%d %d", &num1, &num2);
+    printf("è¾“å…¥ä¸¤ä¸ªæ“ä½œæ•°:>\n");
+    scanf("%d %d", &num1, &num2);
     sum = num1 + num2;
     printf("sum = %d\n", sum);
 
     return 0;
 }
 
-//ÕâÀï½éÉÜÒ»ÏÂÊäÈë£¬Êä³öÓï¾ä
+//è¿™é‡Œä»‹ç»ä¸€ä¸‹è¾“å…¥ï¼Œè¾“å‡ºè¯­å¥
 // scanf
 // printf
