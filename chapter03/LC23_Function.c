@@ -28,7 +28,7 @@ int main()
 {
 	unsigned int num = 0;
 	scanf("%d",&num);//1729
-	int ret = DIgitSum(num);
+	int ret = DigitSum(num);
 	printf("ret = %d\n", ret);
 
 	return 0;
